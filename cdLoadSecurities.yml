@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - loadSecurities:
+       Type: AWS::Lambda::Function
+       Properties:
+         Name: "loadSecurities"
+         Alias: "prod"
+         CurrentVersion: "2"
+         TargetVersion: "3"
